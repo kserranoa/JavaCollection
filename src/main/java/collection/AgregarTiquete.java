@@ -45,4 +45,21 @@ public class AgregarTiquete {
    public void viewPerson(){
        Collections.sort(ticket, new ViewPerson());
    }
+   // Metodo ordena por problema
+      public void viewProblema(){
+       Collections.sort(ticket, new ViewProblema());
+   }
+          // Metodo ordena por prioridad
+         public void viewPrioridad(){
+       Collections.sort(ticket, new ViewPrioridad());
+   }
+        // Metodo ordena por departamento
+            public void viewDepartamento(){
+       Collections.sort(ticket, new ViewDepartamento());
+   }
+       // Metodo ordena por estado
+       public void viewEstado(){
+       Collections.sort(ticket, new ViewEstado());
+   }
+            
 }
