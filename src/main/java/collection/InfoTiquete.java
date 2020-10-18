@@ -78,10 +78,11 @@ public class InfoTiquete {
         this.estadoTiquete = estadoTiquete;
     }
     
-//    protected String print()
-//    {
-//        return "Persona: " + persona + " Numero Tiquete: " + numTiquete;
-//    }
+    // Metodo para poder mostrarlo y ordenarlo
+    protected String print()
+    {
+        return "Numero tiquete:  " + numTiquete  + "Persona: " + persona + "Problema: " + problema + "Prioridad: " + prioridad + "Departamento: " + departamento + "Estado Tiquete: " + estadoTiquete;
+    }
 //    
 //    public final String ViewName()
 //    {
