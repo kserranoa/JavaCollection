@@ -12,8 +12,11 @@ public class AccionTiquete {
             var tiquete = new AgregarTiquete();
             tiquete.agregaDatos();
             tiquete.muestra();
-            System.out.println("***************");
-            tiquete.eliminaDatos(1);
+            System.out.println("Ordena por numero tiquete");
+            tiquete.viewOrden();
+            tiquete.muestra();
+            System.out.println("Ordena por persona");
+            tiquete.viewPerson();
             tiquete.muestra();
     }
 
