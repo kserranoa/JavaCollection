@@ -2,9 +2,19 @@
 
 package collection;
 
-public class AccionTiquete {
+import java.util.LinkedList;
+import java.util.List;
 
+public class AccionTiquete {
+       
+       
     public static void main(String[] args) {
+            var tiquete = new AgregarTiquete();
+            tiquete.agregaDatos();
+            tiquete.muestra();
+            System.out.println("***************");
+            tiquete.eliminaDatos(1);
+            tiquete.muestra();
     }
 
 }
