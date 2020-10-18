@@ -18,6 +18,20 @@ public class AccionTiquete {
             System.out.println("Ordena por persona");
             tiquete.viewPerson();
             tiquete.muestra();
+            System.out.println("Ordena por problema");
+            tiquete.viewProblema();
+            tiquete.muestra();
+            System.out.println("Ordena por prioridad");
+            tiquete.viewPrioridad();
+            tiquete.muestra();
+            System.out.println("Ordena por departamento");
+            tiquete.viewDepartamento();
+            tiquete.muestra();
+            System.out.println("Ordena por estado");
+            tiquete.viewEstado();
+            tiquete.muestra();
+    }
+    
     }
 
-}
+
