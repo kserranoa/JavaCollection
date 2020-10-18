@@ -88,4 +88,6 @@ public class InfoTiquete {
 //    {
 //        return persona.toUpperCase();
 //    }
+    
+    
 }
